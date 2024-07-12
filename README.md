@@ -1,4 +1,4 @@
-# Blog Generation using LLAMA 2
+# Blog Generation using LLAMA 2.0
 
 ## Introduction
 
@@ -6,8 +6,9 @@ This project uses the LLAMA 2 model to generate blog content.
 The application provides an interface to input prompts and receive generated text based on those prompts.
 
 ## Installation
-You will need a LLAMA model .bin file to generate the blog content. Download the LLAMA 2 model from this (URL)
-[https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGML/tree/main]
+
+You will need a LLAMA model .bin file to generate the blog content. Download the LLAMA 2 model from this [URL]
+(https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGML/tree/main)
 
 1. **Clone the repository**:
 
@@ -26,6 +27,7 @@ You will need a LLAMA model .bin file to generate the blog content. Download the
 3. **Install the required packages**:
    ```sh
    pip install -r requirements.txt
+   pip install -U langchain-community
    ```
 
 ## Running the Application
