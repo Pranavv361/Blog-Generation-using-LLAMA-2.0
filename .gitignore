@@ -1,0 +1,8 @@
+#Ignore models folder
+models/
+
+#Ignore all .bin files
+*.bin
+
+#Ignore venv folder
+venv/
