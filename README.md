@@ -7,14 +7,12 @@ The application provides an interface to input prompts and receive generated tex
 
 ## Installation
 
-You will need a LLAMA model .bin file to generate the blog content. Download the LLAMA 2 model from this [URL]
-(https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGML/tree/main)
+You will need a LLAMA model .bin file to generate the blog content. Download the LLAMA 2 model from this [URL](https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGML/tree/main)
 
 1. **Clone the repository**:
 
    ```sh
    git clone <repository_url>
-   cd Blog_Generation_Llama2
    ```
 
 2. **Create and activate a virtual environment**:
